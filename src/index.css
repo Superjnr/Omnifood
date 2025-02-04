@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 1;
+  font-weight: 300;
+  color: black;
+  background-color: rgb(255, 254, 254);
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+/**************************/
+/* GENERAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-btn {
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 3rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.nav-open,
+.nav-close {
+  display: none;
+}
+
+/**************************/
+/* Below 1200 */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+/**************************/
+/* Below 1024 */
+/**************************/
+@media (max-width: 64em) {
+  html {
+    font-size: 54%;
+  }
+}
+
+/**************************/
+/* Below 944 */
+/**************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 48em) {
+  .nav-open {
+    display: block;
+  }
+
+  .list {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: white;
+    transition: 1s;
+    transform: translatex(-100vh);
+  }
+
+  nav .responsive_nav {
+    transform: none;
+  }
+
+  .nav-open {
+    position: absolute;
+    top: 2rem;
+    right: 7rem;
+    color: white;
+  }
+}

@@ -1,0 +1,131 @@
+.section-how {
+  padding: 2.4rem 0;
+  margin-top: 55rem;
+  background-color: #f4f4f4;
+}
+.mob img {
+  height: 50rem;
+  margin-top: 5rem;
+}
+.how-text {
+  margin-top: 15rem;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.step {
+  margin-bottom: 3rem;
+  line-height: 1.5;
+  display: flex;
+}
+span {
+  border: 2px solid #e67e22;
+  font-size: 100%;
+  border-radius: 50%;
+  padding: 5px;
+  color: #e67e22;
+  height: 54px;
+  width: 54px;
+  text-align: center;
+}
+
+.btn-app img {
+  height: 5rem;
+  margin-right: 1rem;
+}
+.h {
+  margin-top: 10rem;
+}
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 81.125em) {
+  .section-how {
+    margin-top: 50rem;
+  }
+}
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 67.75em) {
+  .section-how {
+    margin-top: 45rem;
+  }
+}
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 53.75em) {
+  .section-how {
+    margin-top: 40rem;
+  }
+}
+
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 48em) {
+  .section-how .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .how-text {
+    margin-top: 6rem;
+    font-size: 2rem;
+  }
+  span {
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+  }
+  .section-how {
+    margin-top: 40rem;
+  }
+}
+/* *********************************** */
+/* BELOW 700px 
+/* *********************************** */
+@media (max-width: 43.75em) {
+  .section-how {
+    margin-top: 35rem;
+  }
+}
+/* *********************************** */
+/* BELOW 600px 
+/* *********************************** */
+@media (max-width: 38.75em) {
+  .section-how {
+    margin-top: 30rem;
+  }
+}
+/* *********************************** */
+/* BELOW 512px 
+/* *********************************** */
+@media (max-width: 32em) {
+  .section-how {
+    margin-top: 28rem;
+  }
+}
+/* *********************************** */
+/* BELOW 480px 
+/* *********************************** */
+@media (max-width: 30em) {
+  .section-how {
+    margin-top: 26rem;
+  }
+}
+/* *********************************** */
+/* BELOW 432px 
+/* *********************************** */
+@media (max-width: 27em) {
+  .section-how {
+    margin-top: 24rem;
+  }
+}
+/* *********************************** */
+/* BELOW 390px 
+/* *********************************** */
+@media (max-width: 24.5em) {
+  .section-how {
+    margin-top: 22rem;
+  }
+}

@@ -1,0 +1,46 @@
+.section-fast {
+  padding: 2.4rem 0;
+  margin-top: 4.8rem;
+  text-align: center;
+}
+.heading2 {
+  font-size: 3.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.heading2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.heading4 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0 1rem 0;
+}
+.long-copy {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.icon {
+  color: #e67e22;
+  font-size: 3.2rem;
+  margin: 2rem;
+}
+
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 48em) {
+  .section-fast .grid {
+    grid-template-columns: 1fr;
+  }
+}

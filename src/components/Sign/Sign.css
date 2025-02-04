@@ -1,0 +1,212 @@
+.section-sign {
+  padding: 2.4rem 0;
+  background-color: #f4f4f4;
+}
+.s {
+  margin-top: 4.8rem;
+}
+
+.section-sign h4 {
+  text-align: left;
+}
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 5rem;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+  border: 0;
+}
+
+.plan-price {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #e67e22;
+}
+.i {
+  color: #e67e22;
+}
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-price-meal {
+  font-size: 1.8rem;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
+  font-size: 1.8rem;
+}
+/**************************/
+/* Below 844 */
+/**************************/
+@media (max-width: 52.75em) {
+  .section-sign .grid {
+    column-gap: 0rem;
+  }
+}
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 48em) {
+  .section-sign .grid {
+    grid-template-columns: 1fr;
+  }
+  .section-sign .btn {
+    position: relative;
+    left: 28rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 28rem;
+  }
+  .plan-price-meal {
+    font-size: 2.1rem;
+  }
+  .plan-box ul li {
+    font-size: 2.1rem;
+  }
+}
+/* *********************************** */
+/* BELOW 700px 
+/* *********************************** */
+@media (max-width: 43.75em) {
+  .section-sign .btn {
+    position: relative;
+    left: 24rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 24rem;
+  }
+}
+
+/* *********************************** */
+/* BELOW 640px 
+/* *********************************** */
+@media (max-width: 40em) {
+  .section-sign .btn {
+    position: relative;
+    left: 20rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 20rem;
+  }
+}
+/* *********************************** */
+/* BELOW 600px 
+/* *********************************** */
+@media (max-width: 38.75em) {
+  .section-sign .btn {
+    position: relative;
+    left: 18rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 18rem;
+  }
+  .heading2 {
+    font-size: 3.2rem;
+  }
+}
+/* *********************************** */
+/* BELOW 540px 
+/* *********************************** */
+@media (max-width: 33.75em) {
+  .section-sign .btn {
+    position: relative;
+    left: 15rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 15rem;
+  }
+}
+/* *********************************** */
+/* BELOW 512px 
+/* *********************************** */
+@media (max-width: 32em) {
+  .section-sign .btn {
+    position: relative;
+    left: 13rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 13rem;
+  }
+}
+/* *********************************** */
+/* BELOW 480px 
+/* *********************************** */
+@media (max-width: 30em) {
+  .section-sign .btn {
+    position: relative;
+    left: 10rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 10rem;
+  }
+}
+/* *********************************** */
+/* BELOW 432px 
+/* *********************************** */
+@media (max-width: 27em) {
+  .section-sign .btn {
+    position: relative;
+    left: 8rem;
+  }
+  .section-sign .btn-show {
+    position: relative;
+    left: 8rem;
+  }
+}
+/* *********************************** */
+/* BELOW 414px 
+/* *********************************** */
+@media (max-width: 25.875em) {
+  .section-sign .btn-show {
+    position: relative;
+    left: 6rem;
+  }
+  .section-sign .btn {
+    position: relative;
+    left: 6rem;
+  }
+}
+/* *********************************** */
+/* BELOW 376px 
+/* *********************************** */
+@media (max-width: 23.5em) {
+  .section-sign .btn-show {
+    position: relative;
+    left: 5rem;
+  }
+  .section-sign .btn {
+    position: relative;
+    left: 5rem;
+  }
+}
