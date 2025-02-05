@@ -8,10 +8,10 @@ import "aos/dist/aos.css";
 
 const Sign = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200, offset: 400 });
+    AOS.init({ duration: 1000, offset: 400 });
   }, []);
   return (
-    <div className="section-sign" data-aos="fade-up">
+    <div id="Sign" className="section-sign" data-aos="fade-up">
       <div className="container">
         <div className="s">
           <h2 className="heading2">Start eating healthy today</h2>

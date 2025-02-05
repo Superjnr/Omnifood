@@ -8,7 +8,7 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 const Fast = () => {
   return (
-    <div className="section-fast" data-aos="fade-up">
+    <div id="FastFood" className="section-fast" data-aos="fade-up">
       <div className="container">
         <h2 className="heading2">get food fast &mdash; not fast food</h2>
         <p className="long-copy">

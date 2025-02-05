@@ -12,6 +12,28 @@ const Header = () => {
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
+  const headerEl = document.querySelector(".list");
+  const link = document.querySelector(".nav-link");
+
+  document.querySelectorAll(".list").forEach((link) => {
+    link.addEventListener("click", () => {
+      headerEl.classList.remove("responsive_nav");
+    });
+  });
+
+  const allLinks = document.querySelectorAll("a:link");
+
+  allLinks.forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      // e.preventDefault();
+      const href = link.getAttribute("href");
+
+      if (href !== "#" && href.startsWith("#")) {
+        const section = document.querySelector(href);
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  });
 
   return (
     <div className="header">
@@ -19,22 +41,22 @@ const Header = () => {
         <img className="logo" src={logo} />
         <ul ref={navRef} className="list">
           <li>
-            <a href="#" className="nav-link">
+            <a href="#FastFood" className="nav-link">
               Food delivery
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a href="#How" className="nav-link">
               How it works
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a href="#Cities" className="nav-link">
               Our Cities
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a href="#Sign" className="nav-link">
               Sign up
             </a>
           </li>

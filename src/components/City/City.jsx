@@ -13,10 +13,10 @@ import "aos/dist/aos.css";
 
 const City = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200, offset: 400 });
+    AOS.init({ duration: 1000, offset: 400 });
   }, []);
   return (
-    <div className="section-city" data-aos="fade-up">
+    <div id="Cities" className="section-city" data-aos="fade-up">
       <h2 className="heading2">We're currently in these cities</h2>
       <div className="container">
         <div className=" city grid grid--4-cols">

@@ -38,6 +38,7 @@
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
+  margin-top: -1rem;
 }
 .hero {
   max-width: 120rem;
@@ -156,6 +157,12 @@
   .hero-text h1 {
     font-size: 4rem;
   }
+  .nav-btn {
+    font-size: 3.5rem;
+  }
+  .nav-open {
+    top: 2.5rem;
+  }
 }
 /* *********************************** */
 /* BELOW 700px 
@@ -163,14 +170,6 @@
 @media (max-width: 43.75em) {
   .hero {
     max-width: 70rem;
-  }
-}
-/* *********************************** */
-/* BELOW 640px 
-/* *********************************** */
-@media (max-width: 40em) {
-  .nav-open {
-    top: 2.5rem;
   }
 }
 /* *********************************** */
@@ -197,11 +196,16 @@
   .hero {
     max-width: 50rem;
   }
-  .nav-btn {
-    font-size: 3.5rem;
-  }
   .logo {
     margin-left: -2rem;
+  }
+}
+/* *********************************** */
+/* BELOW 480px 
+/* *********************************** */
+@media (max-width: 30em) {
+  .logo {
+    height: 6rem;
   }
 }
 /* *********************************** */

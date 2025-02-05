@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 const Meals = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200, offset: 400 });
+    AOS.init({ duration: 1000, offset: 400 });
   }, []);
   return (
     <div className="section-meals">

@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Send = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200, offset: 400 });
+    AOS.init({ duration: 1000, offset: 400 });
   }, []);
   return (
     <div className="section-send" data-aos="fade-up">

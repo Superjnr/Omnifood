@@ -7,10 +7,10 @@ import "aos/dist/aos.css";
 
 const How = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200, offset: 400 });
+    AOS.init({ duration: 1000, offset: 400 });
   }, []);
   return (
-    <div className="section-how" data-aos="fade-up">
+    <div id="How" className="section-how" data-aos="fade-up">
       <div className="container">
         <div className="h">
           <h2 className="heading2">How it works &mdash; simple as 1, 2, 3</h2>
