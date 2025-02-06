@@ -50,7 +50,7 @@ const Header = () => {
       <div className="hero">
         <div className="hero-text">
           <h1>
-            Goodbye junk food. <br /> Helllo super healthy meals.
+            Goodbye junk food. <br /> Hello super healthy meals.
           </h1>
           <button className="btn">I'm Hungry</button>
           <button className="btn-show">Show me more</button>
