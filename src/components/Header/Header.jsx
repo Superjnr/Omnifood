@@ -12,28 +12,10 @@ const Header = () => {
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
-  const headerEl = document.querySelector(".list");
-  const link = document.querySelector(".nav-link");
 
-  document.querySelectorAll(".list").forEach((link) => {
-    link.addEventListener("click", () => {
-      headerEl.classList.remove("responsive_nav");
-    });
-  });
-
-  const allLinks = document.querySelectorAll("a:link");
-
-  allLinks.forEach(function (link) {
-    link.addEventListener("click", function (e) {
-      // e.preventDefault();
-      const href = link.getAttribute("href");
-
-      if (href !== "#" && href.startsWith("#")) {
-        const section = document.querySelector(href);
-        section.scrollIntoView({ behavior: "smooth" });
-      }
-    });
-  });
+  const closeNavbar = () => {
+    navRef.current.classList.remove("responsive_nav");
+  };
 
   return (
     <div className="header">
@@ -41,22 +23,22 @@ const Header = () => {
         <img className="logo" src={logo} />
         <ul ref={navRef} className="list">
           <li>
-            <a href="#FastFood" className="nav-link">
+            <a href="#FastFood" className="nav-link" onClick={closeNavbar}>
               Food delivery
             </a>
           </li>
           <li>
-            <a href="#How" className="nav-link">
+            <a href="#How" className="nav-link" onClick={closeNavbar}>
               How it works
             </a>
           </li>
           <li>
-            <a href="#Cities" className="nav-link">
+            <a href="#Cities" className="nav-link" onClick={closeNavbar}>
               Our Cities
             </a>
           </li>
           <li>
-            <a href="#Sign" className="nav-link">
+            <a href="#Sign" className="nav-link" onClick={closeNavbar}>
               Sign up
             </a>
           </li>
@@ -65,9 +47,6 @@ const Header = () => {
           <FontAwesomeIcon icon={faBars} />
         </button>
       </nav>
-      <button className="nav-btn nav-close" onClick={showNavbar}>
-        <FontAwesomeIcon icon={faXmark} />
-      </button>
       <div className="hero">
         <div className="hero-text">
           <h1>
