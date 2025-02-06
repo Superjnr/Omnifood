@@ -34,10 +34,9 @@
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../../img/hero.jpg);
-  background-size: cover !important;
-  background-position: center !important;
+  background-size: cover;
   height: 100vh;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   margin-top: -1rem;
 }
 .hero {
