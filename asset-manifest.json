@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Omnifood/static/css/main.b1219c63.css",
-    "main.js": "/Omnifood/static/js/main.8c72d15d.js",
+    "main.css": "/Omnifood/static/css/main.10186815.css",
+    "main.js": "/Omnifood/static/js/main.6ed86de1.js",
     "static/js/453.201226c1.chunk.js": "/Omnifood/static/js/453.201226c1.chunk.js",
-    "static/media/hero.jpg": "/Omnifood/static/media/hero.2f86b41ef712bff7bb5c.jpg",
     "static/media/back.jpg": "/Omnifood/static/media/back.39fa5f6e2f50ed00293e.jpg",
     "static/media/iPhone.png": "/Omnifood/static/media/iPhone.496b35387168c51a923b.png",
     "static/media/berlin.jpg": "/Omnifood/static/media/berlin.e3c6d08188e917f0d5ea.jpg",
@@ -22,12 +21,12 @@
     "static/media/cus2.jpg": "/Omnifood/static/media/cus2.0b0c883a0cf0122b085c.jpg",
     "static/media/cus1.jpg": "/Omnifood/static/media/cus1.5d0d9b325d384ce27e72.jpg",
     "index.html": "/Omnifood/index.html",
-    "main.b1219c63.css.map": "/Omnifood/static/css/main.b1219c63.css.map",
-    "main.8c72d15d.js.map": "/Omnifood/static/js/main.8c72d15d.js.map",
+    "main.10186815.css.map": "/Omnifood/static/css/main.10186815.css.map",
+    "main.6ed86de1.js.map": "/Omnifood/static/js/main.6ed86de1.js.map",
     "453.201226c1.chunk.js.map": "/Omnifood/static/js/453.201226c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1219c63.css",
-    "static/js/main.8c72d15d.js"
+    "static/css/main.10186815.css",
+    "static/js/main.6ed86de1.js"
   ]
 }
