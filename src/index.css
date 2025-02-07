@@ -129,4 +129,7 @@ body {
     right: 7rem;
     color: white;
   }
+  body {
+  overflow-x: hidden;
+}
 }
